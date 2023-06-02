@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="end"
+    android:padding="@dimen/calculatorDefaultMargin"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:id="@+id/tvExpression"
+        style="@style/CalculatorTextView"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:gravity="end|bottom"
+        tools:text="Expression Example"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/tvEqual"
+            style="@style/CalculatorResultTextView"
+            android:text="@string/symbol_equal" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            style="@style/CalculatorResultTextView"
+            tools:text="Result Example"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btClear"
+            style="@style/CalculatorClearButton"
+            android:text="@string/symbol_clear"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/btDelete"
+            style="@style/CalculatorSymbolButton"
+            android:text="@string/symbol_delete"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/btPositiveNegative"
+            style="@style/CalculatorSymbolButton"
+            android:text="@string/symbol_positive_negative"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/btDivision"
+            style="@style/CalculatorSymbolButton"
+            android:text="@string/symbol_division"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btSeven"
+            style="@style/CalculatorNumberButton"
+            android:text="@string/number_seven"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/btEight"
+            style="@style/CalculatorNumberButton"
+            android:text="@string/number_eight"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/btNine"
+            style="@style/CalculatorNumberButton"
+            android:text="@string/number_nine"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/btTimes"
+            style="@style/CalculatorSymbolButton"
+            android:text="@string/symbol_times"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btFour"
+            style="@style/CalculatorNumberButton"
+            android:text="@string/number_four"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/btFive"
+            style="@style/CalculatorNumberButton"
+            android:text="@string/number_five"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/btSix"
+            style="@style/CalculatorNumberButton"
+            android:text="@string/number_six"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/btMinus"
+            style="@style/CalculatorSymbolButton"
+            android:text="@string/symbol_minus"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btOne"
+            style="@style/CalculatorNumberButton"
+            android:text="@string/number_one"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/btTwo"
+            style="@style/CalculatorNumberButton"
+            android:text="@string/number_two"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/btThree"
+            style="@style/CalculatorNumberButton"
+            android:text="@string/number_three"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/btPlus"
+            style="@style/CalculatorSymbolButton"
+            android:text="@string/symbol_plus"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btZero"
+            style="@style/CalculatorNumberButton"
+            android:text="@string/number_zero"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/btPoint"
+            style="@style/CalculatorNumberButton"
+            android:text="@string/symbol_comma"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/btEqual"
+            style="@style/CalculatorEqualButton"
+            android:text="@string/symbol_equal"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

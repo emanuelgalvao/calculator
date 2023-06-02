@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="calculatorButtonHeight">80dp</dimen>
+    <dimen name="calculatorButtonTextSize">25sp</dimen>
+    <dimen name="calculatorExpressionResultTextSize">30sp</dimen>
+    <dimen name="calculatorButtonMargin">1dp</dimen>
+    <dimen name="calculatorDefaultMargin">8dp</dimen>
+
+</resources>
